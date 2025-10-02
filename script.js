@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded",() => {
         newsContainer.innerHTML="";
         errorMessage.textContent="Loading news....";
 
-        let url = `${BASE_URL}/top-headlines?token=${API_KEY}&lang=en&country=in&max=6`;
+        let url = `${BASE_URL}/top-headlines?token=${API_KEY}&lang=en&country=in&max=10`;
         if (query){
-            url = `${BASE_URL}/search?q=${encodeURIComponent(query)}&token=${API_KEY}&lang=en&max=6`;
+            url = `${BASE_URL}/search?q=${encodeURIComponent(query)}&token=${API_KEY}&lang=en&max=10`;
         }
 
         try{
