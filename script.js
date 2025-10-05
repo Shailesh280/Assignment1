@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",() => {
     const searchButton=document.getElementById("search-news");
     const searchInput=document.getElementById("search-query");
 
-    const API_KEY = "26462fb65c941141c41c9026a410ec86"
+    const API_KEY = "API_KEY_GNEWS"
     const BASE_URL="https://gnews.io/api/v4"
 
 
